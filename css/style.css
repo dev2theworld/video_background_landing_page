@@ -113,3 +113,21 @@
 .text a:hover {
   letter-spacing: 4px;
 }
+
+.social {
+  position: absolute;
+  bottom: 20px;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social li {
+  list-style: none;
+}
+
+.social li a {
+  color: #fff;
+  margin-right: 30px;
+}
